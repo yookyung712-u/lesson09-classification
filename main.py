@@ -18,7 +18,7 @@ st.set_page_config(
 st.title("🧠 뇌졸중 예측 실습실")
 st.caption("데이터를 살펴보고, 열의 의미를 직접 정리해 보는 첫걸음")
 
-DATA_URL = "https://raw.githubusercontent.com/greatsong/modudata/main/data/stroke.csv"
+DATA_URL = "https://github.com/yookyung712-u/data/blob/main/stroke.csv"
 RECORD_DIR = Path("내_기록")
 RECORD_FILE = RECORD_DIR / "stroke_데이터_소개.json"
 
